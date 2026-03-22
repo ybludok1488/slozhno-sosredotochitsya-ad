@@ -1,0 +1,35 @@
+:root.theme-light {
+  --page-bg-color: #fff1f7;
+  --page-bg-image: url('../images/cover-image-light.png');
+  --accent-color: #ff8dcb;
+  --accent-title-color: #ffc2e6;
+  --text-color: #353430;
+  --title-decor-text-color: #353430;
+  --section-title-color: #353430;
+  --button-color: #353430;
+  --decorated-zone-color: #353430;
+  --rec-display: none;
+}
+
+.theme-light .header__rec {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not(.theme-dark) {
+    --page-bg-color: #fff1f7;
+    --page-bg-image: url('../images/cover-image-light.png');
+    --accent-color: #ff8dcb;
+    --accent-title-color: #ffc2e6;
+    --text-color: #353430;
+    --title-decor-text-color: #353430;
+    --section-title-color: #353430;
+    --button-color: #353430;
+    --decorated-zone-color: #353430;
+    --rec-display: none;
+  }
+
+  :root:not(.theme-dark) .header__rec {
+    display: none;
+  }
+}
